@@ -141,7 +141,7 @@ TAGMES = [ " **𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 𝐊𝐚𝐡𝐚 𝐇𝐨🤗🥱**
            " **𝐉𝐨𝐢𝐧 𝐊𝐚𝐫 𝐋𝐨🤗** ",
            " **𝐄𝐤 𝐃𝐢𝐥 𝐇𝐚𝐢 𝐄𝐤 𝐃𝐢𝐥 𝐇𝐢 𝐓𝐨 𝐇𝐚𝐢😗😗** ",
            " **𝐓𝐮𝐦𝐡𝐚𝐫𝐞 𝐃𝐨𝐬𝐭 𝐊𝐚𝐡𝐚 𝐆𝐲𝐞🥺** ",
-           " **𝐌𝐲 𝐂𝐮𝐭𝐞 𝐎𝐰𝐧𝐞𝐫{ @SHIVANSH474}🥰** ",
+           " **𝐌𝐲 𝐂𝐮𝐭𝐞 𝐎𝐰𝐧𝐞𝐫{ @itszShukla}🥰** ",
            " **𝐊𝐚𝐡𝐚 𝐊𝐡𝐨𝐲𝐞 𝐇𝐨 𝐉𝐚𝐚𝐧😜** ",
            " **𝐆𝐨𝐨𝐝 𝐍8 𝐉𝐢 𝐁𝐡𝐮𝐭 𝐑𝐚𝐭 𝐇𝐨 𝐠𝐲𝐢🥰** ",
            ]
@@ -263,7 +263,7 @@ async def mention_allvc(client, message):
         usrtxt += f"[{usr.user.first_name}](tg://user?id={usr.user.id}) "
 
         if usrnum == 1:
-            txt = f"{usrtxt} {random.choice(VC_TAG)}\n\n|| ➥  ᴛᴀɢɢɪɴɢ ʙʏ  @SHIVANSH474||"
+            txt = f"{usrtxt} {random.choice(VC_TAG)}\n\n|| ➥  ᴛᴀɢɢɪɴɢ ʙʏ  @itszShukla||"
             await userbot.one.send_message(chat_id, txt)
             await asyncio.sleep(5)
             usrnum = 0
